@@ -1,6 +1,133 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@font-face {
+    font-family: 'Industry-Demi';
+    src: url('fonts/Industry/Industry-Demi.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-@media (max-width: 1100px) {
+@font-face {
+    font-family: 'Industry-Book';
+    src: url('fonts/Industry/Industry-Book.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-MediumItalic';
+    src: url('fonts/Industry/Industry-MediumItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-BlackItalic';
+    src: url('fonts/Industry/Industry-BlackItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-LightItalic';
+    src: url('fonts/Industry/Industry-LightItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Bold';
+    src: url('fonts/Industry/Industry-Bold.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-Black';
+    src: url('fonts/Industry/Industry-Black.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-ThinItalic';
+    src: url('fonts/Industry/Industry-ThinItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Thin';
+    src: url('fonts/Industry/Industry-Thin.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-Light';
+    src: url('fonts/Industry/Industry-Light.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-BookItalic';
+    src: url('fonts/Industry/Industry-BookItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-UltraItalic';
+    src: url('fonts/Industry/Industry-UltraItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-UltraItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-DemiItalic';
+    src: url('fonts/Industry/Industry-DemiItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-DemiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Medium';
+    src: url('fonts/Industry/Industry-Medium.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Industry-BoldItalic';
+    src: url('fonts/Industry/Industry-BoldItalic.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Industry-Ultra';
+    src: url('fonts/Industry/Industry-Ultra.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Ultra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media (max-width: 1000px) {
     .side-menu {
         width: 100% !important;
         height: 400px;
@@ -8,8 +135,9 @@
 }
 
 body, html {
+    font-style: normal;
+    font-weight: 200;
     height: 100%;
-    font-family: 'Orbitron', sans-serif;
     background: url("img/cherry.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,8 +146,39 @@ body, html {
 }
 
 .side-menu {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 550px;
+    padding: 50px;
+}
+
+#name {
+    font-family: 'Industry-Black', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    display: inline;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    overflow: hidden;
+    padding: 0.333rem 0.333rem 0.333rem 0.583rem;
+    text-transform: uppercase;
+}
+
+#introduction {
+    font-family: 'Industry', sans-serif;
+    color: #b9b9b9;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 0.75rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    line-height: 2 !important;
+    margin: 2.667rem 0 2.667rem 0;
+    text-align: justify;
 }
 
 .content-menu {
@@ -29,4 +188,8 @@ body, html {
 #firefly {
     height: 100%;
     z-index: 1;
+}
+
+canvas {
+    height: 100%;
 }
