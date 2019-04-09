@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+@media (max-width: 1100px) {
+    .side-menu {
+        width: 100% !important;
+        height: 400px;
+    }
+}
+
 body, html {
     height: 100%;
+    font-family: 'Orbitron', sans-serif;
+    background: url("img/cherry.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.side-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 550px;
+}
+
+.content-menu {
+
 }
 
 #firefly {
-    background-image: url("img/cherry.png");
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    z-index: 1;
 }
