@@ -9,7 +9,7 @@ function firefly(id, num, sz, color) {
         canvas.height = div.offsetHeight;
         canvas.width = div.offsetWidth;
         canvas.style.position = "fixed";
-        canvas.style.zIndex = 100;
+        canvas.style.zIndex = -1;
         canvas.style.left = "0";
         canvas.style.top = "0";
         div.appendChild(canvas);

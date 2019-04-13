@@ -201,10 +201,6 @@ body, html {
     text-align: justify;
 }
 
-.social {
-    z-index: 200;
-}
-
 .social a {
     height: 56px;
     background: #000000;
