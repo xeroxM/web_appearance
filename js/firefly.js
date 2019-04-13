@@ -8,7 +8,7 @@ function firefly(id, num, sz, color) {
         canvas.id = "fireflyLayer";
         canvas.height = div.offsetHeight;
         canvas.width = div.offsetWidth;
-        canvas.style.position = "absolute";
+        canvas.style.position = "fixed";
         canvas.style.zIndex = 100;
         canvas.style.left = "0";
         canvas.style.top = "0";
