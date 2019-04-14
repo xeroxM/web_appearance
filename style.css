@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee');
-
 @font-face {
     font-family: 'Industry-Demi';
     src: url('fonts/Industry/industry-demi-webfont.woff2') format('woff2'),
@@ -10,24 +8,6 @@
     font-family: 'Industry-Book';
     src: url('fonts/Industry/Industry-Book-webfont.woff2') format('woff2'),
     url('fonts/Industry/Industry-Book-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-MediumItalic';
-    src: url('fonts/Industry/Industry-MediumItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-MediumItalic-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-BlackItalic';
-    src: url('fonts/Industry/Industry-BlackItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BlackItalic-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-LightItalic';
-    src: url('fonts/Industry/Industry-LightItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-LightItalic-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -43,12 +23,6 @@
 }
 
 @font-face {
-    font-family: 'Industry-ThinItalic';
-    src: url('fonts/Industry/Industry-ThinItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-ThinItalic-webfont.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Industry-Thin';
     src: url('fonts/Industry/Industry-Thin-webfont.woff2') format('woff2'),
     url('fonts/Industry/Industry-Thin-webfont.woff') format('woff');
@@ -61,33 +35,9 @@
 }
 
 @font-face {
-    font-family: 'Industry-BookItalic';
-    src: url('fonts/Industry/Industry-BookItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BookItalic-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-UltraItalic';
-    src: url('fonts/Industry/Industry-UltraItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-UltraItalic-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-DemiItalic';
-    src: url('fonts/Industry/Industry-DemiItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-DemiItalic-webfont.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Industry-Medium';
     src: url('fonts/Industry/Industry-Medium-webfont.woff2') format('woff2'),
     url('fonts/Industry/Industry-Medium-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Industry-BoldItalic';
-    src: url('fonts/Industry/Industry-BoldItalic-webfont.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BoldItalic-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -155,7 +105,7 @@ body, html {
 }
 
 #introduction {
-    font-family: 'Industry-Demi', sans-serif;
+    font-family: 'Industry-Medium', sans-serif;
     color: #b9b9b9;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
