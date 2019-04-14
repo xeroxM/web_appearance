@@ -1,6 +1,6 @@
 function firefly(id, num, sz, color) {
     if (document.getElementById("fireflyLayer") != null) {
-        var canvas = document.getElementById("fireflyLayer");
+        var canvas = document.getElementById('fireflyLayer');
     } else {
         var canvas = document.createElement('canvas');
         div = document.getElementById(id);
@@ -14,8 +14,8 @@ function firefly(id, num, sz, color) {
         canvas.style.top = "0";
         div.appendChild(canvas);
     }
-    var h = canvas.height;
-    var w = canvas.width;
+    const h = canvas.height;
+    const w = canvas.width;
     sketch(num, sz, color, h, w);
 }
 
@@ -24,9 +24,9 @@ function sketch(num, sz, color, h, w) {
     var mainContext = mainCanvas.getContext('2d');
     mainContext.clearRect(0, 0, w, h);
 
-    var circles = new Array();
+    let circles = [];
 
-    var requestAnimationFrame = window.requestAnimationFrame ||
+    const requestAnimationFrame = window.requestAnimationFrame ||
         window.mozRequestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
         window.msRequestAnimationFrame;
@@ -41,9 +41,9 @@ function sketch(num, sz, color, h, w) {
 
         this.counter = 0;
 
-        var signHelper = Math.floor(Math.random() * 2);
+        const signHelper = Math.floor(Math.random() * 2);
 
-        if (signHelper == 1) {
+        if (signHelper === 1) {
             this.sign = -1;
         } else {
             this.sign = 1;
@@ -64,35 +64,41 @@ function sketch(num, sz, color, h, w) {
 
         mainContext.closePath();
 
-        var hex = color.replace('#', '');
-        var r = parseInt(hex.substring(0, 2), 16);
-        var g = parseInt(hex.substring(2, 4), 16);
-        var b = parseInt(hex.substring(4, 6), 16);
+        const hex = color.replace('#', '');
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
         mainContext.fillStyle = 'rgba(' + r + ', ' + g + ', ' + b + ', ' + this.opacity + ')';
         mainContext.fill();
     };
 
-    var szNum;
-    if (sz == "big") {
-        szNum = 10;
-    } else if (sz == "medium") {
-        szNum = 5;
-    } else if (sz == "small") {
-        szNum = 3;
-    } else if (sz == "tiny") {
-        szNum = 1;
-    } else {
-        szNum = 5;
+    let szNum;
+
+    switch (sz) {
+        case 'big':
+            szNum = 10;
+            break;
+        case 'medium':
+            szNum = 5;
+            break;
+        case 'small':
+            szNum = 3;
+            break;
+        case 'tiny':
+            szNum = 1;
+            break;
+        default:
+            szNum = 5;
     }
 
     function drawCircles() {
-        for (var i = 0; i < num; i++) {
-            var randomX = Math.round(Math.random() * w);
-            var randomY = Math.round(Math.random() * h);
-            var speed = .2 + Math.random() * 3;
-            var size = Math.random() * szNum;
+        for (let i = 0; i < num; i++) {
+            const randomX = Math.round(Math.random() * w);
+            const randomY = Math.round(Math.random() * h);
+            const speed = .2 + Math.random() * 3;
+            const size = Math.random() * szNum;
 
-            var circle = new Circle(100, speed, size, randomX, randomY);
+            const circle = new Circle(100, speed, size, randomX, randomY);
 
             circles[i] = circle;
         }
@@ -104,8 +110,8 @@ function sketch(num, sz, color, h, w) {
     function draw() {
         mainContext.clearRect(0, 0, w, h);
 
-        for (var i = 0; i < circles.length; i++) {
-            var myCircle = circles[i];
+        for (let i = 0; i < circles.length; i++) {
+            let myCircle = circles[i];
             myCircle.update();
         }
         requestAnimationFrame(draw);
