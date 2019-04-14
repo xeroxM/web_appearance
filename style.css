@@ -1,129 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
 @font-face {
     font-family: 'Industry-Demi';
-    src: url('fonts/Industry/Industry-Demi.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Demi.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('fonts/Industry/industry-demi-webfont.woff2') format('woff2'),
+    url('fonts/Industry/industry-demi-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Book';
-    src: url('fonts/Industry/Industry-Book.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Book-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Book-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-MediumItalic';
-    src: url('fonts/Industry/Industry-MediumItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-MediumItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-MediumItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-BlackItalic';
-    src: url('fonts/Industry/Industry-BlackItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-BlackItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BlackItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-LightItalic';
-    src: url('fonts/Industry/Industry-LightItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-LightItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-LightItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Bold';
-    src: url('fonts/Industry/Industry-Bold.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Bold-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Bold-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Black';
-    src: url('fonts/Industry/Industry-Black.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Black-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Black-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-ThinItalic';
-    src: url('fonts/Industry/Industry-ThinItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-ThinItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-ThinItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Thin';
-    src: url('fonts/Industry/Industry-Thin.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Thin-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Thin-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Light';
-    src: url('fonts/Industry/Industry-Light.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Light-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Light-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-BookItalic';
-    src: url('fonts/Industry/Industry-BookItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BookItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-BookItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BookItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-UltraItalic';
-    src: url('fonts/Industry/Industry-UltraItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-UltraItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-UltraItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-UltraItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-DemiItalic';
-    src: url('fonts/Industry/Industry-DemiItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-DemiItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-DemiItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-DemiItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Medium';
-    src: url('fonts/Industry/Industry-Medium.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Medium-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Medium-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-BoldItalic';
-    src: url('fonts/Industry/Industry-BoldItalic.woff2') format('woff2'),
-    url('fonts/Industry/Industry-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+    src: url('fonts/Industry/Industry-BoldItalic-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-BoldItalic-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Industry-Ultra';
-    src: url('fonts/Industry/Industry-Ultra.woff2') format('woff2'),
-    url('fonts/Industry/Industry-Ultra.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('fonts/Industry/Industry-Ultra-webfont.woff2') format('woff2'),
+    url('fonts/Industry/Industry-Ultra-webfont.woff') format('woff');
 }
 
 
@@ -280,7 +250,38 @@ body, html {
 }
 
 .content-menu {
+    font-family: 'Industry-Medium', sans-serif;
+    padding: 3rem;
+}
 
+.content-menu div {
+    margin: 0 0 3rem 0;
+    padding: 0;
+}
+
+.content-menu span {
+    color: #b9b9b9;
+    display: inline-block;
+    font-size: 0.75rem;
+    margin: 0 0 0.25rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.75rem;
+    line-height: 1;
+    margin: 0 0 0.125rem 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0 0 0.75rem 0;
+}
+
+h5 {
+    margin: 0;
 }
 
 #firefly {
