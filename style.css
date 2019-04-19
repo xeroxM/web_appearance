@@ -50,9 +50,16 @@
 @media (max-width: 1040px) {
     .side-menu {
         min-height: inherit !important;
+        height: auto !important;
+        max-height: inherit !important;
         max-width: 100vw !important;
         min-width: 100vw !important;
         width: 100vw !important;
+        position: static !important;
+    }
+
+    .content-menu {
+        margin: 0 !important;
     }
 }
 
@@ -101,6 +108,10 @@ a:hover {
     flex-flow: column nowrap;
     padding: 3rem;
     width: 460px;
+    position: fixed;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
 }
 
 #name {
@@ -214,6 +225,7 @@ a:hover {
 .content-menu {
     font-family: 'Industry-Medium', sans-serif;
     padding: 3rem;
+    margin-left: 460px;
 }
 
 .content-menu div {
