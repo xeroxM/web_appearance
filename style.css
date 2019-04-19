@@ -73,6 +73,18 @@ body, html {
     background-size: cover;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .side-menu {
     background: rgba(0, 0, 0, 0.88);
     display: -webkit-box;
@@ -218,6 +230,8 @@ body, html {
 }
 
 h3 {
+    font-family: 'Industry-Black', sans-serif;
+    color: #000000;
     font-size: 1.75rem;
     line-height: 1;
     margin: 0 0 0.125rem 0;
@@ -225,13 +239,24 @@ h3 {
 }
 
 h4 {
+    color: #ffffff;
+    font-family: 'Industry-Light', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
     margin: 0 0 0.75rem 0;
 }
 
 h5 {
-    margin: 0;
+    width: max-content;
+    font-family: 'Industry-Demi', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    display: inline;
+    font-size: 0.75rem;
+    letter-spacing: 0.25rem;
+    overflow: hidden;
+    padding: 0.333rem 0.333rem 0.333rem 0.583rem;
+    text-transform: uppercase;
 }
 
 #firefly {
